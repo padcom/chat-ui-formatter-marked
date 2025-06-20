@@ -8,4 +8,4 @@ renderer.link = function({ href, title, text }) {
   return `<a target="_blank" href="${href}" title="${title}">${text}</a>`
 }
 
-setChatMessageFormatter(source => marked(source || '', { renderer }))
+setChatMessageFormatter(source => marked(source.content || '', { renderer }))
