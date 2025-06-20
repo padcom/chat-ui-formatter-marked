@@ -14,5 +14,8 @@
   "type": "module",
   "dependencies": {
     "marked": "^15"
+  },
+  "peerDependencies": {
+    "@padcom/chat-ui": "^0.1.2"
   }
 }
