@@ -1,6 +1,6 @@
 {
   "name": "@padcom/chat-ui-formatter-marked",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Marked message formatter for @padcom/chat-ui",
   "main": "index.mjs",
   "scripts": {
